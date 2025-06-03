@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-    res.send('hello world thank you');
+    res.send('hello world good bye');
 })
 
 app.get('/test', (req, res) => {
